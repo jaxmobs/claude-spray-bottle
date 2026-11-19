@@ -1,0 +1,8 @@
+{
+  "name": "claude-spray-bottle",
+  "owner": { "name": "jaxmobs" },
+  "plugins": [
+    { "name": "spray-bottle", "source": "./spray-bottle", "description": "Spray-bottle button and /s beside the chat: mist popup, psssht sound, and a correction to Claude." },
+    { "name": "spray", "source": "./spray", "description": "/spray [reason]: spray Claude, log it, and remind it of past sprays at session start." }
+  ]
+}

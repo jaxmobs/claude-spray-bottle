@@ -1,0 +1,1 @@
+{ "name": "spray-bottle", "version": "0.1.0", "description": "Spray-bottle button beside the chat: mist popup, psssht sound, and a correction to Claude.", "types": "./types/index.d.ts" }
