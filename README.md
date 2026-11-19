@@ -2,7 +2,9 @@
 
 Train Claude like a cat. Spray it when it does something you don't like.
 
-- **Spray button** above the prompt (or `/s`): a spray-bottle popup with a mist burst, a "psssht" sound, and a heckle ("bad bot!", "you're on thin ice pal", "watch it, Clanker"). Claude stops, says in one line what it did wrong, and switches approach.
+- **Spray button** above the prompt (or `/s`): a spray-bottle popup with a mist burst, a "psssht" and a heckle ("bad bot!", "you're on thin ice pal", "watch it, Clanker"). Spraying with no reason is pure venting: Claude keeps working.
+- **Mash it**: every press within 2.5 seconds builds a combo. Bigger mist, harder shake, an "xN COMBO" badge, a higher-pitched hiss, and escalating insults ("BAD. BOT.", "I'm getting the BIG bottle", "ABSOLUTE CLANKER BEHAVIOR"). Unlimited.
+- **`/s <reason>`**: sprays, stops Claude mid-task, and makes it say in one line what it did wrong and switch approach.
 - **`/spray [reason]`**: no reason means Claude works out what you didn't like from its recent actions.
 - **It remembers**: every spray is logged to `~/.claude/spray-log.jsonl`, and each new session starts with a summary like "sprayed 3x for over-explaining".
 
